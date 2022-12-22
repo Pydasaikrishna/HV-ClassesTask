@@ -215,4 +215,64 @@
 # stopped in class number 22
 # have to continue in class 23
 
+#=================Printing Patterns=====================
 
+# for i in range(4):
+#     for j in range(4):
+#         print("#",end="")
+#     print()
+
+
+# for i in range(4):
+#     for j in range(i+1):
+#         print("#",end="")
+#     print()
+
+# for i in range(4):
+#     for j in range(4-i):
+#         print("#",end="")
+#     print()
+
+#----------------For Else---------------
+
+# nums = [12,13,10,21,22]
+
+# for num in nums:
+#     if num%5==0:
+#         print(num)
+#         break    #to print only one number
+# else:
+#     print("not other suitable number!!!!")
+
+#-------------Prime numbers------------
+# num = int(input("Enter the number: "))
+
+# for i in range(2,num):
+#     if num % i == 0:
+#         print("not prime")
+#         break
+# else:
+#     print("prime")
+
+
+# numr=int(input("Enter range:"))
+# print("Prime numbers:",end=' ')
+# for n in range(1,numr):
+#    for i in range(2,n):
+
+#     if(n%i==0):
+#      break
+# else:
+#  print(n,end=' ')
+
+
+#==============Arrays=============
+
+# import array as arr
+# arr.array()
+
+from array import *
+
+vals = array()
+
+#==========stopped at Array(26)========
